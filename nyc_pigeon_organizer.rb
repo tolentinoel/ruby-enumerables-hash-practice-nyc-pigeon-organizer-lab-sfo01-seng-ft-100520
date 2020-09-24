@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
       final_answer[name][key].push(in_key)
       end
     end
-final_answer
+  final_answer
   end
+  binding.pry
 end
