@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
     names.each do |name|
   binding.pry
   end  
-  final_answer
   end
+  final_answer
 binding.pry
 end
 
