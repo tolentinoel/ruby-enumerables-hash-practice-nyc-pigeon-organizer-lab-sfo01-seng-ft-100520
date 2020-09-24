@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         end  
         if !final_answer[name][key]
           !final_answer[name][key] = []
-        binding.pry
+        # binding.pry
         end
       final_answer[name][key].push(in_key)
       end
