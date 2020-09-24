@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def nyc_pigeon_organizer(data)
   final_list = data.each_with_object({}) do |(key, value), final_answer|
@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
         end  
         if !final_answer[name][key]
           !final_answer[name][key] = []
-        # binding.pry
         end
       final_answer[name][key].push(in_key.to_s)
       end
