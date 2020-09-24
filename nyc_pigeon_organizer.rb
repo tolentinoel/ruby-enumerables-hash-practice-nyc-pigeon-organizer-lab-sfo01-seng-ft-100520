@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
   end  
   end
   final_answer
+end
 binding.pry
 end
 
