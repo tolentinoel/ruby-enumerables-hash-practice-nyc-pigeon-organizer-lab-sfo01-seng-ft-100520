@@ -7,6 +7,6 @@ data.each_with_object({}) do |(key, value), final_answer|
  final_answer
 
 end  
-binding.pry
+
 end
 
