@@ -21,11 +21,12 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-data.each_with_object({}) do |(key, value), final|
- 
- final
+data.each_with_object({}) do |(key, value), final_answer|
+ binding.pry
+ value.each do {|
+ final_answer
  
 end  
-
+binding.pry
 end
 
