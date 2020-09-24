@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
           !final_answer[name][key] = []
         # binding.pry
         end
-      final_answer[name][key].push(in_key)
+      final_answer[name][key].push(in_key.to_s)
       end
     end
   final_answer
