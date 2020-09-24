@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
   value.each do |in_key, names|
     names.each do |name|
   binding.pry
+      if !final_answer[name]
   end  
   end
   final_answer
