@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
   end
   final_answer
 end
-binding.pry
+
 end
 
+binding.pry
