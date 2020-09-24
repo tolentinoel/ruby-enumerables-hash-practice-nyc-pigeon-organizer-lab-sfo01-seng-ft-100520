@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
       if !final_answer[name]
         final_answer[name] = {}
   end  
+      if !final_answer[name][key]
+        final_answer[name][key] = []
   end
   final_answer
 end
